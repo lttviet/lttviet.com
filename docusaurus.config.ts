@@ -38,8 +38,6 @@ const config: Config = {
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/lttviet/lttviet.com/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           exclude: [
@@ -89,7 +87,7 @@ const config: Config = {
     },
     algolia: {
       appId: '4R3IFQCE2A',
-      apiKey: '9321ef9aaac72d1fb02c0bb997b9092c',
+      apiKey: '2d33ff5a165f7a5ad823f1d664e5b618',
       indexName: 'lttviet',
     }
   } satisfies Preset.ThemeConfig,
