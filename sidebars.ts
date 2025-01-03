@@ -49,6 +49,7 @@ const sidebars: SidebarsConfig = {
     'finance/crypto',
   ],
   books: [
+    'books/index',
     'books/1984',
     'books/slaughterhouse-five',
     'books/project-hail-mary',
