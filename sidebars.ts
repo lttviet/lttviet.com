@@ -41,6 +41,12 @@ const sidebars: SidebarsConfig = {
     'llm',
     'stable-diffusion',
     'low-code'
+  ],
+  finance: [
+    'finance/credit-cards',
+    'finance/investment',
+    'finance/robinhood',
+    'finance/crypto',
   ]
 };
 

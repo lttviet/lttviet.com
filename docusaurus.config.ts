@@ -69,6 +69,12 @@ const config: Config = {
           label: 'Tech',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'finance',
+          position: 'left',
+          label: 'Finance',
+        },
+        {
           href: 'https://github.com/lttviet/lttviet.com',
           label: 'GitHub',
           position: 'right',
