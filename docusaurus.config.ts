@@ -66,13 +66,25 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tech',
           position: 'left',
-          label: 'Tech',
+          label: '⚡ Tech',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'books',
+          position: 'left',
+          label: '📖 Books',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'games',
+          position: 'left',
+          label: '🎮 Games',
         },
         {
           type: 'docSidebar',
           sidebarId: 'finance',
           position: 'left',
-          label: 'Finance',
+          label: '📈 Finance',
         },
         {
           href: 'https://github.com/lttviet/lttviet.com',
@@ -89,7 +101,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['bash', 'powershell', 'ini']
+      additionalLanguages: ['bash', 'powershell', 'ini', 'hcl']
     },
     algolia: {
       appId: '4R3IFQCE2A',

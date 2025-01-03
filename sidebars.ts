@@ -8,14 +8,14 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '🛠️ Homelab',
       link: {
-        type: 'generated-index',
-        title: '🛠️ Homelab',
-        description: 'Homelab setup.',
-        slug: '/homelab'
+        type: 'doc',
+        id: 'homelab/index',
       },
       items: [
         'homelab/hardware',
         'homelab/proxmox',
+        'homelab/secrets',
+        'homelab/terraform',
       ]
     },
     {
@@ -47,6 +47,28 @@ const sidebars: SidebarsConfig = {
     'finance/investment',
     'finance/robinhood',
     'finance/crypto',
+  ],
+  books: [
+    'books/1984',
+    'books/slaughterhouse-five',
+    'books/project-hail-mary',
+    'books/snow-crash',
+    'books/the-metamorphosis-of-prime-intellect',
+    'books/meditation',
+    'books/on-the-genealogy-of-morality',
+    'books/the-myth-of-sisyphus',
+    'books/the-psychology-of-money',
+    {
+      'Papers': [
+        'books/papers/dreaming-is-the-inverse-of-anxious-mind-wandering',
+        'books/papers/the-superior-virtue-of-the-oppressed',
+      ]
+    },
+  ],
+  games: [
+    'games/metaphor-refantazio',
+    'games/baldurs-gate-3',
+    'games/armored-core-6',
   ]
 };
 
