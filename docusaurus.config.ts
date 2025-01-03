@@ -2,8 +2,6 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'Thought Machine',
   tagline: 'Random thoughts',
@@ -35,13 +33,14 @@ const config: Config = {
     [
       'classic',
       {
+        debug: true,
         docs: {
-          routeBasePath: '/', // Serve the docs at the site's root
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           exclude: [
-            'README.md',
+            'README.md', 'private/**',
           ]
         },
         blog: false,
@@ -56,6 +55,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
+      hideOnScroll: true,
       title: 'Thought Machine',
       logo: {
         alt: 'My Site Logo',
@@ -95,13 +95,19 @@ const config: Config = {
     },
     docs: {
       sidebar: {
-        hideable: true
+        hideable: true,
+        autoCollapseCategories: true,
       },
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['bash', 'powershell', 'ini', 'hcl']
+      additionalLanguages: [
+        'bash',
+        'powershell',
+        'ini',
+        'hcl'
+      ]
     },
     algolia: {
       appId: '4R3IFQCE2A',
@@ -109,7 +115,6 @@ const config: Config = {
       indexName: 'lttviet',
     }
   } satisfies Preset.ThemeConfig,
-
   future: {
     experimental_faster: {
       swcJsLoader: true,
