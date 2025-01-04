@@ -15,6 +15,7 @@ const sidebars: SidebarsConfig = {
         'homelab/hardware',
         'homelab/proxmox',
         'homelab/secrets',
+        'homelab/cloud-init',
         'homelab/terraform',
       ]
     },
