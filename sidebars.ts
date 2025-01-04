@@ -17,6 +17,8 @@ const sidebars: SidebarsConfig = {
         'homelab/secrets',
         'homelab/cloud-init',
         'homelab/terraform',
+        'homelab/ansible',
+        'homelab/k3s',
       ]
     },
     {
