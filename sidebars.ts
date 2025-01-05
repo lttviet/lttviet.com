@@ -61,10 +61,6 @@ const sidebars: SidebarsConfig = {
     'books/project-hail-mary',
     'books/snow-crash',
     'books/the-metamorphosis-of-prime-intellect',
-    'books/meditation',
-    'books/on-the-genealogy-of-morality',
-    'books/the-myth-of-sisyphus',
-    'books/the-psychology-of-money',
     {
       'Papers': [
         'books/papers/dreaming-is-the-inverse-of-anxious-mind-wandering',
