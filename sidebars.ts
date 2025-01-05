@@ -19,6 +19,9 @@ const sidebars: SidebarsConfig = {
         'homelab/terraform',
         'homelab/ansible',
         'homelab/k3s',
+        'homelab/dns',
+        'homelab/wildcard-tls-cert',
+        'homelab/vpn',
       ]
     },
     {
