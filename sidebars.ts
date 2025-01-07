@@ -4,6 +4,7 @@ const sidebars: SidebarsConfig = {
   tech: [
     'timeline',
     'local-dev',
+    'keyboards',
     {
       type: 'category',
       label: '🛠️ Homelab',
